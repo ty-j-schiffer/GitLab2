@@ -34,7 +34,7 @@ public class Interval {
    * Tests to see if a number is in the interval (including at either end).
    * 
    * @param d the number to look for
-   * @return true iff the number is in the interval
+   * @return true if the number is in the interval
    */
   public boolean contains(double d) {
     return d >= low && d <= high;
@@ -131,6 +131,7 @@ public class Interval {
     return "(" + low + ',' + high + ')';
   }
 }
+
 //This is the master
 
 
